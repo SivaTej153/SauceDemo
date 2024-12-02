@@ -57,7 +57,6 @@ public class Testcase1 extends BaseTest {
         String actualMessage = ele.getWebElement("CLASSNAME", "complete-header").getText();
         System.out.println(actualMessage);
 
-//        Assert.assertTrue(actualMessage.equals("Thank you for your order!"), "Wrong Message Found!!");
         Assert.assertEquals(actualMessage, "Thank you for your order!", "Wrong Message Found!!");
         logger.info("Assert Successful: Order Placed");
     }
