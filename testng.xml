@@ -4,7 +4,7 @@
 <listeners>
     <listener class-name="Utils.SuiteListener"/>
 </listeners>
-<test thread-count="5" name="ChromeTest">
+<test name="ChromeTest">
     <parameter name="browser" value="chrome"/>
     <classes>
         <class name="qa.tests.Testcase1"/>
